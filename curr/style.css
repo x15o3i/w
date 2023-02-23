@@ -6,14 +6,13 @@
 
 
 .mm {
-   background: white;
-   border: 5px solid;
-   font-size: 25px;
-   width: 30%;
-   font-weight: bold ;
-   color:black;
-   text-align: center;
-   text-decoration: underline;
+  background: rgb(255, 255, 255);
+  font-size: 25px;
+  width: 30%;
+  font-weight: bold ;
+  color:black;
+  text-align: center;
+  text-decoration: underline;
 }  
 
 
@@ -42,4 +41,8 @@
 #btn:hover{
  background: red;
  color: white;
+}
+.body{
+  display: flex;
+  flex-direction: row;
 }
