@@ -3,28 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Currency Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" type="image/x-icon" href="./cactus j.png">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.15.3/all.min.css">
+  </head>
 <body>
-  <h1 class="mm">Currency Converter</h1>
-  <div class="body">
-  <img class="img" src="./exchange.png" alt="">
-     <div class="money">
-           Amount <br><br>
-           From <br>
-           Naira: <input type="number" id="naira"> <br><br>
-           To <br>
-           Dollar: <input type="number" id="dollar"> <br><br>
-           To <br>
-           Euro: <input type="number" id="Euro"> <br><br>
-           To <br>
-           Pound: <input type="number" id="Pound"> <br><br>
-           <button id="btn">Calculate</button>
+  <div class="wrapper">
+    <hea er>Currency converter</header>
+  <form action="#">
+    <div class="amount">
+      <p>Enter Amount</p>
+      <input type="text" value="1">
+    </div>
+    <div class="drop-list">
+      <div class="from">
+        <p>From</p>
+        <div class="select-box">
+          <img src="" alt="flag">
+          <select>
+           <option value="USD">USD</option>
+           <option value="NPR">NPR</option>
+           <option value="INR">INR</option>
+           <option value="PKR">PKR</option>
+           <option value="MAD">MAD</option>
+          </select>
+        </div>
+      </div>
+    <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+    <div class="to">
+      <p>TO</p>
+      <div class="select-box">
+        <img src="" alt="flag">
+        <select>
+         <option value="USD">USD</option>
+         <option value="NPR">NPR</option>
+         <option value="INR">INR</option>
+         <option value="PKR">PKR</option>
+         <option value="MAD">MAD</option>
+        </select>
       </div>
     </div>
+  </div>
+    <div class="exchange-rate"> 1 USD = 118.16 NPR </div>
+    <button>Get Exchange Rate</button>
+  </form>
+  </div>
+   
+     
       <script src="./currency.js"></script>
-
+      <script src="country-list.js"></script>
       <footer>
         <p class="mm">&copy; Raphael Fulfilled 2023 || All rights reserved.</p>
       </footer>
