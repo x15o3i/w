@@ -12,7 +12,7 @@ body{
   justify-content: center;
   min-height: 100vh;
   padding: 0 10px;
-  background: #606065;
+  background: rosybrown;
 }
 ::selection{
   color: #fff;
@@ -102,9 +102,9 @@ form button{
   color: #fff;
   font-size: 17px;
   cursor: pointer;
-  background: #606065;
+  background: rosybrown;
   transition: 0.3s ease;
 }
 form button:hover{
-  background: #4534fe;
+  background: red;
 }
